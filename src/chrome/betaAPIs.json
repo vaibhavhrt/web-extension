@@ -1,0 +1,4 @@
+[
+    { "name": "declarativeNetRequest", "description": "The chrome.declarativeNetRequest API is used to block or redirect network requests by specifying declarative rules." },
+    { "name": "declarativeWebRequest", "description": "Note: this API is currently on hold, without concrete plans to move to stable. Use the chrome.declarativeWebRequest API to intercept, block, or modify requests in-flight. It is significantly faster than the chrome.webRequest API because you can register rules that are evaluated in the browser rather than the JavaScript engine, which reduces roundtrip latencies and allows higher efficiency." }
+]

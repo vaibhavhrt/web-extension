@@ -1,0 +1,5 @@
+[
+    { "name": "automation", "description": "The chrome.automation API allows developers to access the automation (accessibility) tree for the browser. The tree resembles the DOM tree, but only exposes the semantic structure of a page. It can be used to programmatically interact with a page by examining names, roles, and states, listening for events, and performing actions on nodes." },
+    { "name": "processes", "description": "Use the chrome.processes API to interact with the browser's processes." },
+    { "name": "signedInDevices", "description": "Use the `chrome.signedInDevices` API to get a list of devices signed into chrome with the same account as the current profile." }
+]
