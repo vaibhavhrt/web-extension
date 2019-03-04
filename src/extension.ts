@@ -4,11 +4,14 @@ import * as vscode from 'vscode';
 import chromeCompletionItemProvider from './chrome/chromeCompletionItemProvider';
 import tabsCompletionItemProvider from './chrome/tabs/tabsCompletionItemProvider';
 
+// const documentSelector = [{language: 'javascript', scheme: 'file'}, {language: 'type', scheme: 'file'}];
+const documentSelector = ['javascript', 'typescript', 'plaintext'];
+
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
 
-	let chromeProvider = vscode.languages.registerCompletionItemProvider(['plaintext', 'javascript', 'typescript'], {
+	let chromeProvider = vscode.languages.registerCompletionItemProvider(documentSelector, {
         provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken, context: vscode.CompletionContext) {
             // a completion item that can be accepted by a commit character,
             // the `commitCharacters`-property is set which means that the completion will
@@ -24,8 +27,8 @@ export function activate(context: vscode.ExtensionContext) {
         }
     });
 
-	const chromeItemsProvider = vscode.languages.registerCompletionItemProvider(['javascript', 'typescript'], chromeCompletionItemProvider, '.');
-    const tabsProvider = vscode.languages.registerCompletionItemProvider(['javascript', 'typescript'], tabsCompletionItemProvider, '.');
+	const chromeItemsProvider = vscode.languages.registerCompletionItemProvider(documentSelector, chromeCompletionItemProvider, '.');
+    const tabsProvider = vscode.languages.registerCompletionItemProvider(documentSelector, tabsCompletionItemProvider, '.');
 }
 
 // this method is called when your extension is deactivated

@@ -1,0 +1,15 @@
+[
+    { "name": "onCreated" },
+    { "name": "onUpdated" },
+    { "name": "onMoved" },
+    { "name": "onSelectionChanged" },
+    { "name": "onActiveChanged" },
+    { "name": "onActivated" },
+    { "name": "onHighlightChanged" },
+    { "name": "onHighlighted" },
+    { "name": "onDetached" },
+    { "name": "onAttached" },
+    { "name": "onRemoved" },
+    { "name": "onReplaced" },
+    { "name": "onZoomChange" }
+]

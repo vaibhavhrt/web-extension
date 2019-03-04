@@ -1,5 +1,9 @@
 import * as vscode from 'vscode';
 
+import properties from './properties.json';
+import methods from './methods.json';
+import events from './events.json';
+
 const tabsCompletionItemProvider = {
     provideCompletionItems(document: vscode.TextDocument, position: vscode.Position) {
         // get all text until the `position` and check if it reads `chrome.tabs.`
@@ -9,8 +13,18 @@ const tabsCompletionItemProvider = {
             return undefined;
         }
 
+        const propertiesCompletionItems = properties.map(prop => new vscode.CompletionItem(prop.name, vscode.CompletionItemKind.Property));
+        const methodsCompletionItems = methods.map(func => {
+            const completionItem = new vscode.CompletionItem(func.name, vscode.CompletionItemKind.Method);
+            completionItem.documentation = new vscode.MarkdownString(func.description);
+            return completionItem;
+        });
+        const eventsCompletionItems = events.map(e => new vscode.CompletionItem(e.name, vscode.CompletionItemKind.Event));
+
         return [
-            new vscode.CompletionItem('MutedInfoReason', vscode.CompletionItemKind.Text),
+            ...propertiesCompletionItems,
+            ...methodsCompletionItems,
+            ...eventsCompletionItems,
         ];
     }
 };
