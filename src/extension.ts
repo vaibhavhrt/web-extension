@@ -15,7 +15,7 @@ export function activate(context: vscode.ExtensionContext) {
             // be inserted and then the character will be typed.
             const commitCharacterCompletion = new vscode.CompletionItem('chrome');
             commitCharacterCompletion.commitCharacters = ['.'];
-            commitCharacterCompletion.documentation = new vscode.MarkdownString('Press `.` to get `chrome.`');
+            commitCharacterCompletion.documentation = new vscode.MarkdownString('Chrome provides extensions with many special-purpose APIs like `chrome.runtime` and `chrome.alarms`.');
     
             // return all completion items as array
             return [
