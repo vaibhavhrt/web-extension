@@ -3,6 +3,7 @@
 import * as vscode from 'vscode';
 import chromeCompletionItemProvider from './chrome/chromeCompletionItemProvider';
 import tabsCompletionItemProvider from './chrome/tabs/tabsCompletionItemProvider';
+import accessibilityFeaturesCompletionItemProvider from './chrome/accessibilityFeatures/accessibilityFeaturesCompletionItemProvider';
 
 // const documentSelector = [{language: 'javascript', scheme: 'file'}, {language: 'type', scheme: 'file'}];
 const documentSelector = ['javascript', 'typescript', 'plaintext'];
@@ -28,6 +29,8 @@ export function activate(context: vscode.ExtensionContext) {
     });
 
 	const chromeItemsProvider = vscode.languages.registerCompletionItemProvider(documentSelector, chromeCompletionItemProvider, '.');
+
+    const accessibilityFeaturesProvider = vscode.languages.registerCompletionItemProvider(documentSelector, accessibilityFeaturesCompletionItemProvider, '.');
     const tabsProvider = vscode.languages.registerCompletionItemProvider(documentSelector, tabsCompletionItemProvider, '.');
 }
 

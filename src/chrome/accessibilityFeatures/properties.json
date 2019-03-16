@@ -1,0 +1,15 @@
+[
+    { "name": "spokenFeedback" },
+    { "name": "largeCursor" },
+    { "name": "stickyKeys" },
+    { "name": "highContrast" },
+    { "name": "screenMagnifier" },
+    { "name": "autoclick" },
+    { "name": "virtualKeyboard" },
+    { "name": "caretHighlight" },
+    { "name": "cursorHighlight" },
+    { "name": "focusHighlight" },
+    { "name": "selectToSpeak" },
+    { "name": "switchAccess" },
+    { "name": "animationPolicy" }
+]
