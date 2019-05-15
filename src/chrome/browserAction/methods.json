@@ -1,0 +1,13 @@
+[
+    { "name": "setTitle", "description": "`chrome.browserAction.setTitle(object details, function callback)`" },
+    { "name": "getTitle", "description": "`chrome.browserAction.getTitle(object details, function callback)`" },
+    { "name": "setIcon", "description": "`chrome.browserAction.setIcon(object details, function callback)`" },
+    { "name": "setPopup", "description": "`chrome.browserAction.setPopup(object details, function callback)`" },
+    { "name": "getPopup", "description": "`chrome.browserAction.getPopup(object details, function callback)`" },
+    { "name": "setBadgeText", "description": "`chrome.browserAction.setBadgeText(object details, function callback)`" },
+    { "name": "getBadgeText", "description": "`chrome.browserAction.getBadgeText(object details, function callback)`" },
+    { "name": "setBadgeBackgroundColor", "description": "`chrome.browserAction.setBadgeBackgroundColor(object details, function callback)`" },
+    { "name": "getBadgeBackgroundColor", "description": "`chrome.browserAction.getBadgeBackgroundColor(object details, function callback)`" },
+    { "name": "enable", "description": "`chrome.browserAction.enable(integer tabId, function callback)`" },
+    { "name": "disable", "description": "`chrome.browserAction.disable(integer tabId, function callback)`" }
+]
