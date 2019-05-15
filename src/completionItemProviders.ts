@@ -4,6 +4,7 @@ import alarmsCompletionItemProvider from './chrome/alarms';
 import bookmarksCompletionItemProvider from './chrome/bookmarks';
 import browserActionCompletionItemProvider from './chrome/browserAction';
 import browsingDataCompletionItemProvider from './chrome/browsingData';
+import certificateProviderCompletionItemProvider from './chrome/certificateProvider';
 
 import tabsCompletionItemProvider from './chrome/tabs';
 
@@ -14,6 +15,7 @@ export default [
     bookmarksCompletionItemProvider,
     browserActionCompletionItemProvider,
     browsingDataCompletionItemProvider,
+    certificateProviderCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];

@@ -1,0 +1,4 @@
+[
+    { "name": "requestPin", "description": "`chrome.certificateProvider.requestPin(object details, function callback)`" },
+    { "name": "stopPinRequest", "description": "`chrome.certificateProvider.stopPinRequest(object details, function callback)`" }
+]

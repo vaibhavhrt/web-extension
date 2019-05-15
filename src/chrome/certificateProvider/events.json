@@ -1,0 +1,4 @@
+[
+    { "name": "onCertificatesRequested" },
+    { "name": "onSignDigestRequested" }
+]
