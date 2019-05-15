@@ -1,0 +1,4 @@
+[
+    { "name": "MAX_WRITE_OPERATIONS_PER_HOUR" },
+    { "name": "MAX_SUSTAINED_WRITE_OPERATIONS_PER_MINUTE" }
+]

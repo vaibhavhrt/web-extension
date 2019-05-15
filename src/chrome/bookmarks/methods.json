@@ -1,0 +1,13 @@
+[
+    { "name": "get", "description": "`chrome.bookmarks.get(string or array of string idOrIdList, function callback)`" },
+    { "name": "getChildren", "description": "`chrome.bookmarks.getChildren(string id, function callback)`" },
+    { "name": "getRecent", "description": "`chrome.bookmarks.getRecent(integer numberOfItems, function callback)`" },
+    { "name": "getTree", "description": "`chrome.bookmarks.getTree(function callback)`" },
+    { "name": "getSubTree", "description": "`chrome.bookmarks.getSubTree(string id, function callback)`" },
+    { "name": "search", "description": "`chrome.bookmarks.search(string or object query, function callback)`" },
+    { "name": "create", "description": "`chrome.bookmarks.create(object bookmark, function callback)`" },
+    { "name": "move", "description": "`chrome.bookmarks.move(string id, object destination, function callback)`" },
+    { "name": "update", "description": "`chrome.bookmarks.update(string id, object changes, function callback)`" },
+    { "name": "remove", "description": "`chrome.bookmarks.remove(string id, function callback)`" },
+    { "name": "removeTree", "description": "`chrome.bookmarks.removeTree(string id, function callback)`" }
+]
