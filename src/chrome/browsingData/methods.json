@@ -1,0 +1,18 @@
+[
+    { "name": "settings", "description": "`chrome.browsingData.settings(function callback)`" },
+    { "name": "remove", "description": "`chrome.browsingData.remove( RemovalOptions options, DataTypeSet dataToRemove, function callback)`" },
+    { "name": "removeAppcache", "description": "`chrome.browsingData.removeAppcache( RemovalOptions options, function callback)`" },
+    { "name": "removeCache", "description": "`chrome.browsingData.removeCache( RemovalOptions options, function callback)`" },
+    { "name": "removeCacheStorage", "description": "`chrome.browsingData.removeCacheStorage( RemovalOptions options, function callback)`" },
+    { "name": "removeCookies", "description": "`chrome.browsingData.removeCookies( RemovalOptions options, function callback)`" },
+    { "name": "removeDownloads", "description": "`chrome.browsingData.removeDownloads( RemovalOptions options, function callback)`" },
+    { "name": "removeFileSystems", "description": "`chrome.browsingData.removeFileSystems( RemovalOptions options, function callback)`" },
+    { "name": "removeFormData", "description": "`chrome.browsingData.removeFormData( RemovalOptions options, function callback)`" },
+    { "name": "removeHistory", "description": "`chrome.browsingData.removeHistory( RemovalOptions options, function callback)`" },
+    { "name": "removeIndexedDB", "description": "`chrome.browsingData.removeIndexedDB( RemovalOptions options, function callback)`" },
+    { "name": "removeLocalStorage", "description": "`chrome.browsingData.removeLocalStorage( RemovalOptions options, function callback)`" },
+    { "name": "removePluginData", "description": "`chrome.browsingData.removePluginData( RemovalOptions options, function callback)`" },
+    { "name": "removePasswords", "description": "`chrome.browsingData.removePasswords( RemovalOptions options, function callback)`" },
+    { "name": "removeServiceWorkers", "description": "`chrome.browsingData.removeServiceWorkers( RemovalOptions options, function callback)`" },
+    { "name": "removeWebSQL", "description": "`chrome.browsingData.removeWebSQL( RemovalOptions options, function callback)`" }
+]
