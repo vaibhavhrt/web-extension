@@ -1,0 +1,3 @@
+[
+    { "name": "getAll", "description": "`chrome.commands.getAll(function callback)`" }
+]
