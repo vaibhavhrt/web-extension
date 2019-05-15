@@ -1,0 +1,7 @@
+[
+    { "name": "create", "description": "`chrome.alarms.create(string name, object alarmInfo)`" },
+    { "name": "get", "description": "`chrome.alarms.get(string name, function callback)`" },
+    { "name": "getAll", "description": "`chrome.alarms.getAll(function callback)`" },
+    { "name": "clear", "description": "`chrome.alarms.clear(string name, function callback)`" },
+    { "name": "clearAll", "description": "`chrome.alarms.clearAll(function callback)`" }
+]
