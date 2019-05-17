@@ -1,0 +1,6 @@
+[
+    { "name": "getDirectoryDeviceId", "description": "`chrome.enterprise.deviceAttributes.getDirectoryDeviceId(function callback)`" },
+    { "name": "getDeviceSerialNumber", "description": "`chrome.enterprise.deviceAttributes.getDeviceSerialNumber(function callback)`" },
+    { "name": "getDeviceAssetId", "description": "`chrome.enterprise.deviceAttributes.getDeviceAssetId(function callback)`" },
+    { "name": "getDeviceAnnotatedLocation", "description": "`chrome.enterprise.deviceAttributes.getDeviceAnnotatedLocation(function callback)`" }
+]

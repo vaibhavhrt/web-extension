@@ -18,6 +18,7 @@ import devtools_networkCompletionItemProvider from './chrome/stable/devtools.net
 import devtools_panelsCompletionItemProvider from './chrome/stable/devtools.panels';
 import documentScanCompletionItemProvider from './chrome/stable/documentScan';
 import downloadsCompletionItemProvider from './chrome/stable/downloads';
+import enterprise_deviceAttributesCompletionItemProvider from './chrome/stable/enterprise.deviceAttributes';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -42,6 +43,7 @@ export default [
     devtools_panelsCompletionItemProvider,
     documentScanCompletionItemProvider,
     downloadsCompletionItemProvider,
+    enterprise_deviceAttributesCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
