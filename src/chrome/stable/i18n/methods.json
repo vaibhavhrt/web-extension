@@ -1,0 +1,6 @@
+[
+    { "name": "getAcceptLanguages", "description": "`chrome.i18n.getAcceptLanguages(function callback)`" },
+    { "name": "getMessage", "description": "string `chrome.i18n.getMessage(string messageName, any substitutions)`" },
+    { "name": "getUILanguage", "description": "string `chrome.i18n.getUILanguage()`" },
+    { "name": "detectLanguage", "description": "`chrome.i18n.detectLanguage(string text, function callback)`" }
+]
