@@ -1,0 +1,16 @@
+[
+    { "name": "download", "description": "`chrome.downloads.download(object options, function callback)`" },
+    { "name": "search", "description": "`chrome.downloads.search(object query, function callback)`" },
+    { "name": "pause", "description": "`chrome.downloads.pause(integer downloadId, function callback)`" },
+    { "name": "resume", "description": "`chrome.downloads.resume(integer downloadId, function callback)`" },
+    { "name": "cancel", "description": "`chrome.downloads.cancel(integer downloadId, function callback)`" },
+    { "name": "getFileIcon", "description": "`chrome.downloads.getFileIcon(integer downloadId, object options, function callback)`" },
+    { "name": "open", "description": "`chrome.downloads.open(integer downloadId)`" },
+    { "name": "show", "description": "`chrome.downloads.show(integer downloadId)`" },
+    { "name": "showDefaultFolder", "description": "`chrome.downloads.showDefaultFolder()`" },
+    { "name": "erase", "description": "`chrome.downloads.erase(object query, function callback)`" },
+    { "name": "removeFile", "description": "`chrome.downloads.removeFile(integer downloadId, function callback)`" },
+    { "name": "acceptDanger", "description": "`chrome.downloads.acceptDanger(integer downloadId, function callback)`" },
+    { "name": "drag", "description": "`chrome.downloads.drag(integer downloadId)`" },
+    { "name": "setShelfEnabled", "description": "`chrome.downloads.setShelfEnabled(boolean enabled)`" }
+]

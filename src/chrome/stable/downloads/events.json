@@ -1,0 +1,6 @@
+[
+    { "name": "onCreated" },
+    { "name": "onErased" },
+    { "name": "onChanged" },
+    { "name": "onDeterminingFilename" }
+]
