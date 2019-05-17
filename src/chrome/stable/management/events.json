@@ -1,0 +1,6 @@
+[
+    { "name": "onInstalled" },
+    { "name": "onUninstalled" },
+    { "name": "onEnabled" },
+    { "name": "onDisabled" }
+]

@@ -1,0 +1,15 @@
+[
+    { "name": "getAll", "description": "`chrome.management.getAll(function callback)`" },
+    { "name": "get", "description": "`chrome.management.get(string id, function callback)`" },
+    { "name": "getSelf", "description": "`chrome.management.getSelf(function callback)`" },
+    { "name": "getPermissionWarningsById", "description": "`chrome.management.getPermissionWarningsById(string id, function callback)`" },
+    { "name": "getPermissionWarningsByManifest", "description": "`chrome.management.getPermissionWarningsByManifest(string manifestStr, function callback)`" },
+    { "name": "setEnabled", "description": "`chrome.management.setEnabled(string id, boolean enabled, function callback)`" },
+    { "name": "uninstall", "description": "`chrome.management.uninstall(string id, object options, function callback)`" },
+    { "name": "uninstallSelf", "description": "`chrome.management.uninstallSelf(object options, function callback)`" },
+    { "name": "launchApp", "description": "`chrome.management.launchApp(string id, function callback)`" },
+    { "name": "createAppShortcut", "description": "`chrome.management.createAppShortcut(string id, function callback)`" },
+    { "name": "setLaunchType", "description": "`chrome.management.setLaunchType(string id, LaunchType launchType, function callback)`" },
+    { "name": "generateAppForLink", "description": "`chrome.management.generateAppForLink(string url, string title, function callback)`" },
+    { "name": "installReplacementWebApp", "description": "`chrome.management.installReplacementWebApp(function callback)`" }
+]

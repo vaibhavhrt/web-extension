@@ -31,6 +31,7 @@ import identityCompletionItemProvider from './chrome/stable/identity';
 import idleCompletionItemProvider from './chrome/stable/idle';
 import input_imeCompletionItemProvider from './chrome/stable/input.ime';
 import instanceIDCompletionItemProvider from './chrome/stable/instanceID';
+import managementCompletionItemProvider from './chrome/stable/management';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -68,6 +69,7 @@ export default [
     idleCompletionItemProvider,
     input_imeCompletionItemProvider,
     instanceIDCompletionItemProvider,
+    managementCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
