@@ -1,0 +1,7 @@
+[
+    { "name": "getID", "description": "`chrome.instanceID.getID(function callback)`" },
+    { "name": "getCreationTime", "description": "`chrome.instanceID.getCreationTime(function callback)`" },
+    { "name": "getToken", "description": "`chrome.instanceID.getToken(object getTokenParams, function callback)`" },
+    { "name": "deleteToken", "description": "`chrome.instanceID.deleteToken(object deleteTokenParams, function callback)`" },
+    { "name": "deleteID", "description": "`chrome.instanceID.deleteID(function callback)`" }
+]
