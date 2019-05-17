@@ -1,0 +1,4 @@
+[
+    { "name": "chooseDesktopMedia", "description": "integer `chrome.desktopCapture.chooseDesktopMedia(array of DesktopCaptureSourceType sources, tabs.Tab targetTab, function callback)`" },
+    { "name": "cancelChooseDesktopMedia", "description": "`chrome.desktopCapture.cancelChooseDesktopMedia(integer desktopMediaRequestId)`" }
+]
