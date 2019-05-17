@@ -34,6 +34,7 @@ import instanceIDCompletionItemProvider from './chrome/stable/instanceID';
 import managementCompletionItemProvider from './chrome/stable/management';
 import networking_configCompletionItemProvider from './chrome/stable/networking.config';
 import notificationsCompletionItemProvider from './chrome/stable/notifications';
+import omniboxCompletionItemProvider from './chrome/stable/omnibox';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -74,6 +75,7 @@ export default [
     managementCompletionItemProvider,
     networking_configCompletionItemProvider,
     notificationsCompletionItemProvider,
+    omniboxCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];

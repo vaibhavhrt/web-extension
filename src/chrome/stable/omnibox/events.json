@@ -1,0 +1,7 @@
+[
+    { "name": "onInputStarted" },
+    { "name": "onInputChanged" },
+    { "name": "onInputEntered" },
+    { "name": "onInputCancelled" },
+    { "name": "onDeleteSuggestion" }
+]
