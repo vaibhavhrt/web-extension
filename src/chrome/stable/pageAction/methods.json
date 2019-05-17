@@ -1,0 +1,9 @@
+[
+    { "name": "show", "description": "`chrome.pageAction.show(integer tabId, function callback)`" },
+    { "name": "hide", "description": "`chrome.pageAction.hide(integer tabId, function callback)`" },
+    { "name": "setTitle", "description": "`chrome.pageAction.setTitle(object details, function callback)`" },
+    { "name": "getTitle", "description": "`chrome.pageAction.getTitle(object details, function callback)`" },
+    { "name": "setIcon", "description": "`chrome.pageAction.setIcon(object details, function callback)`" },
+    { "name": "setPopup", "description": "`chrome.pageAction.setPopup(object details, function callback)`" },
+    { "name": "getPopup", "description": "`chrome.pageAction.getPopup(object details, function callback)`" }
+]
