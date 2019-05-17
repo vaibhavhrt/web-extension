@@ -1,0 +1,5 @@
+[
+    { "name": "create", "description": "`chrome.devtools.panels.create(string title, string iconPath, string pagePath, function callback)`" },
+    { "name": "setOpenResourceHandler", "description": "`chrome.devtools.panels.setOpenResourceHandler(function callback)`" },
+    { "name": "openResource", "description": "`chrome.devtools.panels.openResource(string url, integer lineNumber, function callback)`" }
+]
