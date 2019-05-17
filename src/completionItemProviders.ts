@@ -32,6 +32,7 @@ import idleCompletionItemProvider from './chrome/stable/idle';
 import input_imeCompletionItemProvider from './chrome/stable/input.ime';
 import instanceIDCompletionItemProvider from './chrome/stable/instanceID';
 import managementCompletionItemProvider from './chrome/stable/management';
+import networking_configCompletionItemProvider from './chrome/stable/networking.config';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -70,6 +71,7 @@ export default [
     input_imeCompletionItemProvider,
     instanceIDCompletionItemProvider,
     managementCompletionItemProvider,
+    networking_configCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];

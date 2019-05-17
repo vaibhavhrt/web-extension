@@ -1,0 +1,4 @@
+[
+    { "name": "setNetworkFilter", "description": "`chrome.networking.config.setNetworkFilter(array of NetworkInfo networks, function callback)`" },
+    { "name": "finishAuthentication", "description": "`chrome.networking.config.finishAuthentication(string GUID, enum of \"unhandled\", \"succeeded\", \"rejected\", or \"failed\" result, function callback)`" }
+]
