@@ -1,0 +1,13 @@
+[
+    { "name": "onActivate" },
+    { "name": "onDeactivated" },
+    { "name": "onFocus" },
+    { "name": "onBlur" },
+    { "name": "onInputContextUpdate" },
+    { "name": "onKeyEvent" },
+    { "name": "onCandidateClicked" },
+    { "name": "onMenuItemActivated" },
+    { "name": "onSurroundingTextChanged" },
+    { "name": "onReset" },
+    { "name": "onCompositionBoundsChanged" }
+]

@@ -1,0 +1,19 @@
+[
+    { "name": "setComposition", "description": "`chrome.input.ime.setComposition(object parameters, function callback)`" },
+    { "name": "clearComposition", "description": "`chrome.input.ime.clearComposition(object parameters, function callback)`" },
+    { "name": "commitText", "description": "`chrome.input.ime.commitText(object parameters, function callback)`" },
+    { "name": "sendKeyEvents", "description": "`chrome.input.ime.sendKeyEvents(object parameters, function callback)`" },
+    { "name": "hideInputView", "description": "`chrome.input.ime.hideInputView()`" },
+    { "name": "setCandidateWindowProperties", "description": "`chrome.input.ime.setCandidateWindowProperties(object parameters, function callback)`" },
+    { "name": "setCandidates", "description": "`chrome.input.ime.setCandidates(object parameters, function callback)`" },
+    { "name": "setCursorPosition", "description": "`chrome.input.ime.setCursorPosition(object parameters, function callback)`" },
+    { "name": "setMenuItems", "description": "`chrome.input.ime.setMenuItems(object parameters, function callback)`" },
+    { "name": "updateMenuItems", "description": "`chrome.input.ime.updateMenuItems(object parameters, function callback)`" },
+    { "name": "deleteSurroundingText", "description": "`chrome.input.ime.deleteSurroundingText(object parameters, function callback)`" },
+    { "name": "keyEventHandled", "description": "`chrome.input.ime.keyEventHandled(string requestId, boolean response)`" },
+    { "name": "createWindow", "description": "`chrome.input.ime.createWindow( CreateWindowOptions options, function callback)`" },
+    { "name": "showWindow", "description": "`chrome.input.ime.showWindow(integer windowId, function callback)`" },
+    { "name": "hideWindow", "description": "`chrome.input.ime.hideWindow(integer windowId, function callback)`" },
+    { "name": "activate", "description": "`chrome.input.ime.activate(function callback)`" },
+    { "name": "deactivate", "description": "`chrome.input.ime.deactivate(function callback)`" }
+]

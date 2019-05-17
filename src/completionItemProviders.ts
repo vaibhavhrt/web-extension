@@ -29,6 +29,7 @@ import historyCompletionItemProvider from './chrome/stable/history';
 import i18nCompletionItemProvider from './chrome/stable/i18n';
 import identityCompletionItemProvider from './chrome/stable/identity';
 import idleCompletionItemProvider from './chrome/stable/idle';
+import input_imeCompletionItemProvider from './chrome/stable/input.ime';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -64,6 +65,7 @@ export default [
     i18nCompletionItemProvider,
     identityCompletionItemProvider,
     idleCompletionItemProvider,
+    input_imeCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
