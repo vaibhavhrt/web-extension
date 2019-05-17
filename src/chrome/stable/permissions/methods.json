@@ -1,0 +1,6 @@
+[
+    { "name": "getAll", "description": "`chrome.permissions.getAll(function callback)`" },
+    { "name": "contains", "description": "`chrome.permissions.contains( Permissions permissions, function callback)`" },
+    { "name": "request", "description": "`chrome.permissions.request( Permissions permissions, function callback)`" },
+    { "name": "remove", "description": "`chrome.permissions.remove( Permissions permissions, function callback)`" }
+]
