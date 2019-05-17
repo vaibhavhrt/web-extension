@@ -1,0 +1,7 @@
+[
+    { "name": "create", "description": "`chrome.notifications.create(string notificationId, NotificationOptions options, function callback)`" },
+    { "name": "update", "description": "`chrome.notifications.update(string notificationId, NotificationOptions options, function callback)`" },
+    { "name": "clear", "description": "`chrome.notifications.clear(string notificationId, function callback)`" },
+    { "name": "getAll", "description": "`chrome.notifications.getAll(function callback)`" },
+    { "name": "getPermissionLevel", "description": "`chrome.notifications.getPermissionLevel(function callback)`" }
+]

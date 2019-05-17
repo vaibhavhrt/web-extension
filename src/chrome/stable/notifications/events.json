@@ -1,0 +1,7 @@
+[
+    { "name": "onClosed" },
+    { "name": "onClicked" },
+    { "name": "onButtonClicked" },
+    { "name": "onPermissionLevelChanged" },
+    { "name": "onShowSettings" }
+]

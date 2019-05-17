@@ -33,6 +33,7 @@ import input_imeCompletionItemProvider from './chrome/stable/input.ime';
 import instanceIDCompletionItemProvider from './chrome/stable/instanceID';
 import managementCompletionItemProvider from './chrome/stable/management';
 import networking_configCompletionItemProvider from './chrome/stable/networking.config';
+import notificationsCompletionItemProvider from './chrome/stable/notifications';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -72,6 +73,7 @@ export default [
     instanceIDCompletionItemProvider,
     managementCompletionItemProvider,
     networking_configCompletionItemProvider,
+    notificationsCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
