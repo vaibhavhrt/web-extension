@@ -1,0 +1,10 @@
+[
+    { "name": "sendRequest", "description": "`chrome.extension.sendRequest(string extensionId, any request, function responseCallback)`" },
+    { "name": "getURL", "description": "`string chrome.extension.getURL(string path)`" },
+    { "name": "getViews", "description": "`array of Window chrome.extension.getViews(object fetchProperties)`" },
+    { "name": "getBackgroundPage", "description": "`Window chrome.extension.getBackgroundPage()`" },
+    { "name": "getExtensionTabs", "description": "`array of Window chrome.extension.getExtensionTabs(integer windowId)`" },
+    { "name": "isAllowedIncognitoAccess", "description": "`chrome.extension.isAllowedIncognitoAccess(function callback)`" },
+    { "name": "isAllowedFileSchemeAccess", "description": "`chrome.extension.isAllowedFileSchemeAccess(function callback)`" },
+    { "name": "setUpdateUrlData", "description": "`chrome.extension.setUpdateUrlData(string data)`" }
+]

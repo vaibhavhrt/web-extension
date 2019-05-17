@@ -20,6 +20,7 @@ import documentScanCompletionItemProvider from './chrome/stable/documentScan';
 import downloadsCompletionItemProvider from './chrome/stable/downloads';
 import enterprise_deviceAttributesCompletionItemProvider from './chrome/stable/enterprise.deviceAttributes';
 import enterprise_platformKeysCompletionItemProvider from './chrome/stable/enterprise.platformKeys';
+import extensionCompletionItemProvider from './chrome/stable/extension';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -46,6 +47,7 @@ export default [
     downloadsCompletionItemProvider,
     enterprise_deviceAttributesCompletionItemProvider,
     enterprise_platformKeysCompletionItemProvider,
+    extensionCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
