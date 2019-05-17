@@ -1,0 +1,7 @@
+[
+    { "name": "get", "description": "`chrome.cookies.get(object details, function callback)`" },
+    { "name": "getAll", "description": "`chrome.cookies.getAll(object details, function callback)`" },
+    { "name": "set", "description": "`chrome.cookies.set(object details, function callback)`" },
+    { "name": "remove", "description": "`chrome.cookies.remove(object details, function callback)`" },
+    { "name": "getAllCookieStores", "description": "`chrome.cookies.getAllCookieStores(function callback)`" }
+]
