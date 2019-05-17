@@ -8,6 +8,7 @@ import browsingDataCompletionItemProvider from './chrome/stable/browsingData';
 import certificateProviderCompletionItemProvider from './chrome/stable/certificateProvider';
 import commandsCompletionItemProvider from './chrome/stable/commands';
 import contentSettingsCompletionItemProvider from './chrome/stable/contentSettings';
+import contextMenusCompletionItemProvider from './chrome/stable/contextMenus';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -22,6 +23,7 @@ export default [
     certificateProviderCompletionItemProvider,
     commandsCompletionItemProvider,
     contentSettingsCompletionItemProvider,
+    contextMenusCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];

@@ -1,0 +1,6 @@
+[
+    { "name": "create", "description": "`integer or string chrome.contextMenus.create(object createProperties, function callback)`" },
+    { "name": "update", "description": "`chrome.contextMenus.update(integer or string id, object updateProperties, function callback)`" },
+    { "name": "remove", "description": "`chrome.contextMenus.remove(integer or string menuItemId, function callback)`" },
+    { "name": "removeAll", "description": "`chrome.contextMenus.removeAll(function callback)`" }
+]
