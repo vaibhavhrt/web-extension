@@ -11,6 +11,7 @@ import contentSettingsCompletionItemProvider from './chrome/stable/contentSettin
 import contextMenusCompletionItemProvider from './chrome/stable/contextMenus';
 import cookiesCompletionItemProvider from './chrome/stable/cookies';
 import debuggerCompletionItemProvider from './chrome/stable/debugger';
+import declarativeContentCompletionItemProvider from './chrome/stable/declarativeContent';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -28,6 +29,7 @@ export default [
     contextMenusCompletionItemProvider,
     cookiesCompletionItemProvider,
     debuggerCompletionItemProvider,
+    declarativeContentCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
