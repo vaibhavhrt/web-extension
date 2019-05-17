@@ -1,0 +1,4 @@
+[
+    { "name": "requestKeepAwake", "description": "`chrome.power.requestKeepAwake( Level level)`" },
+    { "name": "releaseKeepAwake", "description": "`chrome.power.releaseKeepAwake()`" }
+]
