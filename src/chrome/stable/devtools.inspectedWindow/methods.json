@@ -1,0 +1,5 @@
+[
+    { "name": "eval", "description": "`chrome.devtools.inspectedWindow.eval(string expression, object options, function callback)`" },
+    { "name": "reload", "description": "`chrome.devtools.inspectedWindow.reload(object reloadOptions)`" },
+    { "name": "getResources", "description": "`chrome.devtools.inspectedWindow.getResources(function callback)`" }
+]

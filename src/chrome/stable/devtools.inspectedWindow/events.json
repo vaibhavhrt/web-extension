@@ -1,0 +1,4 @@
+[
+    { "name": "onResourceAdded" },
+    { "name": "onResourceContentCommitted" }
+]

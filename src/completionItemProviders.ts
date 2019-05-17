@@ -13,6 +13,7 @@ import cookiesCompletionItemProvider from './chrome/stable/cookies';
 import debuggerCompletionItemProvider from './chrome/stable/debugger';
 import declarativeContentCompletionItemProvider from './chrome/stable/declarativeContent';
 import desktopCaptureCompletionItemProvider from './chrome/stable/desktopCapture';
+import devtools_inspectedWindowCompletionItemProvider from './chrome/stable/devtools.inspectedWindow';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -32,6 +33,7 @@ export default [
     debuggerCompletionItemProvider,
     declarativeContentCompletionItemProvider,
     desktopCaptureCompletionItemProvider,
+    devtools_inspectedWindowCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
