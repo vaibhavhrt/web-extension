@@ -1,0 +1,8 @@
+[
+    { "name": "getTokens", "description": "`chrome.enterprise.platformKeys.getTokens(function callback)`" },
+    { "name": "getCertificates", "description": "`chrome.enterprise.platformKeys.getCertificates(string tokenId, function callback)`" },
+    { "name": "importCertificate", "description": "`chrome.enterprise.platformKeys.importCertificate(string tokenId, ArrayBuffer certificate, function callback)`" },
+    { "name": "removeCertificate", "description": "`chrome.enterprise.platformKeys.removeCertificate(string tokenId, ArrayBuffer certificate, function callback)`" },
+    { "name": "challengeMachineKey", "description": "`chrome.enterprise.platformKeys.challengeMachineKey(ArrayBuffer challenge, boolean registerKey, function callback)`" },
+    { "name": "challengeUserKey", "description": "`chrome.enterprise.platformKeys.challengeUserKey(ArrayBuffer challenge, boolean registerKey, function callback)`" }
+]
