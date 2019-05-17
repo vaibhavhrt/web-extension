@@ -1,0 +1,4 @@
+[
+    { "name": "onRequestFinished" },
+    { "name": "onNavigated" }
+]

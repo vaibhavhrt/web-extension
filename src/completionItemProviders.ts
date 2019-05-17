@@ -14,6 +14,7 @@ import debuggerCompletionItemProvider from './chrome/stable/debugger';
 import declarativeContentCompletionItemProvider from './chrome/stable/declarativeContent';
 import desktopCaptureCompletionItemProvider from './chrome/stable/desktopCapture';
 import devtools_inspectedWindowCompletionItemProvider from './chrome/stable/devtools.inspectedWindow';
+import devtools_networkCompletionItemProvider from './chrome/stable/devtools.network';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -34,6 +35,7 @@ export default [
     declarativeContentCompletionItemProvider,
     desktopCaptureCompletionItemProvider,
     devtools_inspectedWindowCompletionItemProvider,
+    devtools_networkCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
