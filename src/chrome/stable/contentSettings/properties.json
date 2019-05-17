@@ -1,0 +1,15 @@
+[
+    { "name": "cookies" },
+    { "name": "images" },
+    { "name": "javascript" },
+    { "name": "location" },
+    { "name": "plugins" },
+    { "name": "popups" },
+    { "name": "notifications" },
+    { "name": "fullscreen" },
+    { "name": "mouselock" },
+    { "name": "microphone" },
+    { "name": "camera" },
+    { "name": "unsandboxedPlugins" },
+    { "name": "automaticDownloads" }
+]
