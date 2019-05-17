@@ -25,6 +25,7 @@ import fileBrowserHandlerCompletionItemProvider from './chrome/stable/fileBrowse
 import fileSystemProviderCompletionItemProvider from './chrome/stable/fileSystemProvider';
 import fontSettingsCompletionItemProvider from './chrome/stable/fontSettings';
 import gcmCompletionItemProvider from './chrome/stable/gcm';
+import historyCompletionItemProvider from './chrome/stable/history';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -56,6 +57,7 @@ export default [
     fileSystemProviderCompletionItemProvider,
     fontSettingsCompletionItemProvider,
     gcmCompletionItemProvider,
+    historyCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];

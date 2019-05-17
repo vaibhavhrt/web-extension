@@ -1,0 +1,8 @@
+[
+    { "name": "search", "description": "`chrome.history.search(object query, function callback)`" },
+    { "name": "getVisits", "description": "`chrome.history.getVisits(object details, function callback)`" },
+    { "name": "addUrl", "description": "`chrome.history.addUrl(object details, function callback)`" },
+    { "name": "deleteUrl", "description": "`chrome.history.deleteUrl(object details, function callback)`" },
+    { "name": "deleteRange", "description": "`chrome.history.deleteRange(object range, function callback)`" },
+    { "name": "deleteAll", "description": "`chrome.history.deleteAll(function callback)`" }
+]
