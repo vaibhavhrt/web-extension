@@ -1,0 +1,3 @@
+[
+    { "name": "saveAsMHTML", "description": "`chrome.pageCapture.saveAsMHTML(object details, function callback)`" }
+]

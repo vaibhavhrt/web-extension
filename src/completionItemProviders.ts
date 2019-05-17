@@ -36,6 +36,7 @@ import networking_configCompletionItemProvider from './chrome/stable/networking.
 import notificationsCompletionItemProvider from './chrome/stable/notifications';
 import omniboxCompletionItemProvider from './chrome/stable/omnibox';
 import pageActionCompletionItemProvider from './chrome/stable/pageAction';
+import pageCaptureCompletionItemProvider from './chrome/stable/pageCapture';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -78,6 +79,7 @@ export default [
     notificationsCompletionItemProvider,
     omniboxCompletionItemProvider,
     pageActionCompletionItemProvider,
+    pageCaptureCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
