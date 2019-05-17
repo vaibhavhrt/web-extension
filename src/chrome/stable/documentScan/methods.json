@@ -1,0 +1,3 @@
+[
+    { "name": "scan", "description": "`chrome.documentScan.scan(object options, function callback)`" }
+]

@@ -16,6 +16,7 @@ import desktopCaptureCompletionItemProvider from './chrome/stable/desktopCapture
 import devtools_inspectedWindowCompletionItemProvider from './chrome/stable/devtools.inspectedWindow';
 import devtools_networkCompletionItemProvider from './chrome/stable/devtools.network';
 import devtools_panelsCompletionItemProvider from './chrome/stable/devtools.panels';
+import documentScanCompletionItemProvider from './chrome/stable/documentScan';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -38,6 +39,7 @@ export default [
     devtools_inspectedWindowCompletionItemProvider,
     devtools_networkCompletionItemProvider,
     devtools_panelsCompletionItemProvider,
+    documentScanCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
