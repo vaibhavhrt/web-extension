@@ -1,0 +1,7 @@
+[
+    { "name": "mount", "description": "`chrome.fileSystemProvider.mount(object options, function callback)`" },
+    { "name": "unmount", "description": "`chrome.fileSystemProvider.unmount(object options, function callback)`" },
+    { "name": "getAll", "description": "`chrome.fileSystemProvider.getAll(function callback)`" },
+    { "name": "get", "description": "`chrome.fileSystemProvider.get(string fileSystemId, function callback)`" },
+    { "name": "notify", "description": "`chrome.fileSystemProvider.notify(object options, function callback)`" }
+]

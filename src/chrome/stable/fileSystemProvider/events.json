@@ -1,0 +1,22 @@
+[
+    { "name": "onUnmountRequested" },
+    { "name": "onGetMetadataRequested" },
+    { "name": "onGetActionsRequested" },
+    { "name": "onReadDirectoryRequested" },
+    { "name": "onOpenFileRequested" },
+    { "name": "onCloseFileRequested" },
+    { "name": "onReadFileRequested" },
+    { "name": "onCreateDirectoryRequested" },
+    { "name": "onDeleteEntryRequested" },
+    { "name": "onCreateFileRequested" },
+    { "name": "onCopyEntryRequested" },
+    { "name": "onMoveEntryRequested" },
+    { "name": "onTruncateRequested" },
+    { "name": "onWriteFileRequested" },
+    { "name": "onAbortRequested" },
+    { "name": "onConfigureRequested" },
+    { "name": "onMountRequested" },
+    { "name": "onAddWatcherRequested" },
+    { "name": "onRemoveWatcherRequested" },
+    { "name": "onExecuteActionRequested" }
+]

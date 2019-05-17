@@ -22,6 +22,7 @@ import enterprise_deviceAttributesCompletionItemProvider from './chrome/stable/e
 import enterprise_platformKeysCompletionItemProvider from './chrome/stable/enterprise.platformKeys';
 import extensionCompletionItemProvider from './chrome/stable/extension';
 import fileBrowserHandlerCompletionItemProvider from './chrome/stable/fileBrowserHandler';
+import fileSystemProviderCompletionItemProvider from './chrome/stable/fileSystemProvider';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -50,6 +51,7 @@ export default [
     enterprise_platformKeysCompletionItemProvider,
     extensionCompletionItemProvider,
     fileBrowserHandlerCompletionItemProvider,
+    fileSystemProviderCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
