@@ -38,6 +38,7 @@ import omniboxCompletionItemProvider from './chrome/stable/omnibox';
 import pageActionCompletionItemProvider from './chrome/stable/pageAction';
 import pageCaptureCompletionItemProvider from './chrome/stable/pageCapture';
 import permissionsCompletionItemProvider from './chrome/stable/permissions';
+import platformKeysCompletionItemProvider from './chrome/stable/platformKeys';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -82,6 +83,7 @@ export default [
     pageActionCompletionItemProvider,
     pageCaptureCompletionItemProvider,
     permissionsCompletionItemProvider,
+    platformKeysCompletionItemProvider
 
     tabsCompletionItemProvider,
 ];

@@ -1,0 +1,6 @@
+[
+    { "name": "selectClientCertificates", "description": "`chrome.platformKeys.selectClientCertificates(object details, function callback)`" },
+    { "name": "getKeyPair", "description": "`chrome.platformKeys.getKeyPair(ArrayBuffer certificate, object parameters, function callback)`" },
+    { "name": "subtleCrypto", "description": "object `chrome.platformKeys.subtleCrypto()`" },
+    { "name": "verifyTLSServerCertificate", "description": "`chrome.platformKeys.verifyTLSServerCertificate(object details, function callback)`" }
+]
