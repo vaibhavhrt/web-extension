@@ -1,0 +1,5 @@
+[
+    { "name": "register", "description": "`chrome.gcm.register(array of string senderIds, function callback)`" },
+    { "name": "unregister", "description": "`chrome.gcm.unregister(function callback)`" },
+    { "name": "send", "description": "`chrome.gcm.send(object message, function callback)`" }
+]
