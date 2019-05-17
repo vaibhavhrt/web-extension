@@ -1,0 +1,6 @@
+[
+    { "name": "attach", "description": "`chrome.debugger.attach( Debuggee target, string requiredVersion, function callback)`" },
+    { "name": "detach", "description": "`chrome.debugger.detach( Debuggee target, function callback)`" },
+    { "name": "sendCommand", "description": "`chrome.debugger.sendCommand( Debuggee target, string method, object commandParams, function callback)`" },
+    { "name": "getTargets", "description": "`chrome.debugger.getTargets(function callback)`" }
+]
