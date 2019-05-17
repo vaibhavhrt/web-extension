@@ -23,6 +23,7 @@ import enterprise_platformKeysCompletionItemProvider from './chrome/stable/enter
 import extensionCompletionItemProvider from './chrome/stable/extension';
 import fileBrowserHandlerCompletionItemProvider from './chrome/stable/fileBrowserHandler';
 import fileSystemProviderCompletionItemProvider from './chrome/stable/fileSystemProvider';
+import fontSettingsCompletionItemProvider from './chrome/stable/fontSettings';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -52,6 +53,7 @@ export default [
     extensionCompletionItemProvider,
     fileBrowserHandlerCompletionItemProvider,
     fileSystemProviderCompletionItemProvider,
+    fontSettingsCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];

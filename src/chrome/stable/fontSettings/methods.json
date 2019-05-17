@@ -1,0 +1,15 @@
+[
+    { "name": "clearFont", "description": "`chrome.fontSettings.clearFont(object details, function callback)`" },
+    { "name": "getFont", "description": "`chrome.fontSettings.getFont(object details, function callback)`" },
+    { "name": "setFont", "description": "`chrome.fontSettings.setFont(object details, function callback)`" },
+    { "name": "getFontList", "description": "`chrome.fontSettings.getFontList(function callback)`" },
+    { "name": "clearDefaultFontSize", "description": "`chrome.fontSettings.clearDefaultFontSize(object details, function callback)`" },
+    { "name": "getDefaultFontSize", "description": "`chrome.fontSettings.getDefaultFontSize(object details, function callback)`" },
+    { "name": "setDefaultFontSize", "description": "`chrome.fontSettings.setDefaultFontSize(object details, function callback)`" },
+    { "name": "clearDefaultFixedFontSize", "description": "`chrome.fontSettings.clearDefaultFixedFontSize(object details, function callback)`" },
+    { "name": "getDefaultFixedFontSize", "description": "`chrome.fontSettings.getDefaultFixedFontSize(object details, function callback)`" },
+    { "name": "setDefaultFixedFontSize", "description": "`chrome.fontSettings.setDefaultFixedFontSize(object details, function callback)`" },
+    { "name": "clearMinimumFontSize", "description": "`chrome.fontSettings.clearMinimumFontSize(object details, function callback)`" },
+    { "name": "getMinimumFontSize", "description": "`chrome.fontSettings.getMinimumFontSize(object details, function callback)`" },
+    { "name": "setMinimumFontSize", "description": "`chrome.fontSettings.setMinimumFontSize(object details, function callback)`" }
+]

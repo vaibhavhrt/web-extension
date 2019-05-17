@@ -1,0 +1,6 @@
+[
+    { "name": "onFontChanged" },
+    { "name": "onDefaultFontSizeChanged" },
+    { "name": "onDefaultFixedFontSizeChanged" },
+    { "name": "onMinimumFontSizeChanged" }
+]
