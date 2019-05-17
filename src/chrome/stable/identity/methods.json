@@ -1,0 +1,8 @@
+[
+    { "name": "getAccounts", "description": "`chrome.identity.getAccounts(function callback)`" },
+    { "name": "getAuthToken", "description": "`chrome.identity.getAuthToken(object details, function callback)`" },
+    { "name": "getProfileUserInfo", "description": "`chrome.identity.getProfileUserInfo(function callback)`" },
+    { "name": "removeCachedAuthToken", "description": "`chrome.identity.removeCachedAuthToken(object details, function callback)`" },
+    { "name": "launchWebAuthFlow", "description": "`chrome.identity.launchWebAuthFlow(object details, function callback)`" },
+    { "name": "getRedirectURL", "description": "`string chrome.identity.getRedirectURL(string path)`" }
+]

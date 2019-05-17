@@ -27,6 +27,7 @@ import fontSettingsCompletionItemProvider from './chrome/stable/fontSettings';
 import gcmCompletionItemProvider from './chrome/stable/gcm';
 import historyCompletionItemProvider from './chrome/stable/history';
 import i18nCompletionItemProvider from './chrome/stable/i18n';
+import identityCompletionItemProvider from './chrome/stable/identity';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -60,6 +61,7 @@ export default [
     gcmCompletionItemProvider,
     historyCompletionItemProvider,
     i18nCompletionItemProvider,
+    identityCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
