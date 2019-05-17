@@ -1,0 +1,5 @@
+[
+    { "name": "queryState", "description": "`chrome.idle.queryState(integer detectionIntervalInSeconds, function callback)`" },
+    { "name": "setDetectionInterval", "description": "`chrome.idle.setDetectionInterval(integer intervalInSeconds)`" },
+    { "name": "getAutoLockDelay", "description": "`chrome.idle.getAutoLockDelay(function callback)`" }
+]
