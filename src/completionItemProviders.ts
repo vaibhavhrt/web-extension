@@ -1,15 +1,17 @@
+// Stable APIs
 import chromeCompletionItemProvider from './chrome/chromeCompletionItemProvider';
-import accessibilityFeaturesCompletionItemProvider from './chrome/accessibilityFeatures';
-import alarmsCompletionItemProvider from './chrome/alarms';
-import bookmarksCompletionItemProvider from './chrome/bookmarks';
-import browserActionCompletionItemProvider from './chrome/browserAction';
-import browsingDataCompletionItemProvider from './chrome/browsingData';
-import certificateProviderCompletionItemProvider from './chrome/certificateProvider';
-import commandsCompletionItemProvider from './chrome/commands';
+import accessibilityFeaturesCompletionItemProvider from './chrome/stable/accessibilityFeatures';
+import alarmsCompletionItemProvider from './chrome/stable/alarms';
+import bookmarksCompletionItemProvider from './chrome/stable/bookmarks';
+import browserActionCompletionItemProvider from './chrome/stable/browserAction';
+import browsingDataCompletionItemProvider from './chrome/stable/browsingData';
+import certificateProviderCompletionItemProvider from './chrome/stable/certificateProvider';
+import commandsCompletionItemProvider from './chrome/stable/commands';
 
-import tabsCompletionItemProvider from './chrome/tabs';
+import tabsCompletionItemProvider from './chrome/stable/tabs';
 
 export default [
+    // Stable
     chromeCompletionItemProvider,
     accessibilityFeaturesCompletionItemProvider,
     alarmsCompletionItemProvider,

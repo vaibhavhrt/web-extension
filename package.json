@@ -1,10 +1,10 @@
 {
 	"name": "web-extension",
 	"displayName": "web-extension",
-    "description": "Extension to help with creating chrome/firefox browser extensions.",
-    "version": "0.0.1",
-    "publisher": "VaibhavVishal",
-    "repository": "https://github.com/vaibhavhrt/web-extension",
+	"description": "Extension to help with creating chrome/firefox browser extensions.",
+	"version": "0.0.1",
+	"publisher": "VaibhavVishal",
+	"repository": "https://github.com/vaibhavhrt/web-extension",
 	"engines": {
 		"vscode": "^1.31.0"
 	},
@@ -12,12 +12,12 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onLanguage:plaintext",
-        "onLanguage:javascript",
-        "onLanguage:typescript"
+		"onLanguage:plaintext",
+		"onLanguage:javascript",
+		"onLanguage:typescript"
 	],
 	"main": "./out/extension.js",
-	"contributes": { },
+	"contributes": {},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
