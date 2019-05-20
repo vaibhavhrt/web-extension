@@ -46,6 +46,7 @@ import proxyCompletionItemProvider from './chrome/stable/proxy';
 import runtimeCompletionItemProvider from './chrome/stable/runtime';
 import sessionsCompletionItemProvider from './chrome/stable/sessions';
 import storageCompletionItemProvider from './chrome/stable/storage';
+import system_cpuCompletionItemProvider from './chrome/stable/system.cpu';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -98,6 +99,7 @@ export default [
     runtimeCompletionItemProvider,
     sessionsCompletionItemProvider,
     storageCompletionItemProvider,
+    system_cpuCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
