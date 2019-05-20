@@ -1,0 +1,6 @@
+[
+    { "name": "onSpeak" },
+    { "name": "onStop" },
+    { "name": "onPause" },
+    { "name": "onResume" }
+]
