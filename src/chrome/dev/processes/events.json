@@ -1,0 +1,7 @@
+[
+    { "name": "onUpdated" },
+    { "name": "onUpdatedWithMemory" },
+    { "name": "onCreated" },
+    { "name": "onUnresponsive" },
+    { "name": "onExited" }
+]

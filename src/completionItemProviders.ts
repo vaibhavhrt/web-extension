@@ -66,6 +66,7 @@ import declarativeWebRequestCompletionItemProvider from './chrome/beta/declarati
 
 // Dev APIs
 import automationCompletionItemProvider from './chrome/dev/automation';
+import processesCompletionItemProvider from './chrome/dev/processes';
 
 export default [
     // Stable
@@ -134,4 +135,5 @@ export default [
     declarativeWebRequestCompletionItemProvider,
     // Dev
     automationCompletionItemProvider,
+    processesCompletionItemProvider,
 ];
