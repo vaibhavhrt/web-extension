@@ -1,0 +1,8 @@
+[
+    { "name": "speak", "description": "`chrome.tts.speak(string utterance, object options, function callback)`" },
+    { "name": "stop", "description": "`chrome.tts.stop()`" },
+    { "name": "pause", "description": "`chrome.tts.pause()`" },
+    { "name": "resume", "description": "`chrome.tts.resume()`" },
+    { "name": "isSpeaking", "description": "`chrome.tts.isSpeaking(function callback)`" },
+    { "name": "getVoices", "description": "`chrome.tts.getVoices(function callback)`" }
+]

@@ -52,6 +52,7 @@ import system_storageCompletionItemProvider from './chrome/stable/system.storage
 import tabCaptureCompletionItemProvider from './chrome/stable/tabCapture';
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 import topSitesCompletionItemProvider from './chrome/stable/topSites';
+import ttsCompletionItemProvider from './chrome/stable/tts';
 
 export default [
     // Stable
@@ -108,4 +109,5 @@ export default [
     tabCaptureCompletionItemProvider,
     tabsCompletionItemProvider,
     topSitesCompletionItemProvider,
+    ttsCompletionItemProvider,
 ];
