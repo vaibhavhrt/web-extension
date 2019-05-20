@@ -1,0 +1,5 @@
+[
+    { "name": "getRecentlyClosed", "description": "`chrome.sessions.getRecentlyClosed( Filter filter, function callback)`" },
+    { "name": "getDevices", "description": "`chrome.sessions.getDevices( Filter filter, function callback)`" },
+    { "name": "restore", "description": "`chrome.sessions.restore(string sessionId, function callback)`" }
+]

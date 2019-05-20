@@ -44,6 +44,7 @@ import printerProviderCompletionItemProvider from './chrome/stable/printerProvid
 import privacyCompletionItemProvider from './chrome/stable/privacy';
 import proxyCompletionItemProvider from './chrome/stable/proxy';
 import runtimeCompletionItemProvider from './chrome/stable/runtime';
+import sessionsCompletionItemProvider from './chrome/stable/sessions';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -94,6 +95,7 @@ export default [
     privacyCompletionItemProvider,
     proxyCompletionItemProvider,
     runtimeCompletionItemProvider,
+    sessionsCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
