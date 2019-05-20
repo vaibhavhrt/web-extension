@@ -51,6 +51,7 @@ import system_memoryCompletionItemProvider from './chrome/stable/system.memory';
 import system_storageCompletionItemProvider from './chrome/stable/system.storage';
 import tabCaptureCompletionItemProvider from './chrome/stable/tabCapture';
 import tabsCompletionItemProvider from './chrome/stable/tabs';
+import topSitesCompletionItemProvider from './chrome/stable/topSites';
 
 export default [
     // Stable
@@ -106,4 +107,5 @@ export default [
     system_storageCompletionItemProvider,
     tabCaptureCompletionItemProvider,
     tabsCompletionItemProvider,
+    topSitesCompletionItemProvider,
 ];
