@@ -8,9 +8,9 @@ Provides Autocompletion for chrome extension API. Work in progress.
 
 ## Release Notes
 
-### 0.0.1
+### 0.1.0
 
-Initial release of the extension.
+- Provide autocomplete for all chrome API
 
 ## Issues
 

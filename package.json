@@ -2,7 +2,7 @@
 	"name": "web-extension",
 	"displayName": "web-extension",
 	"description": "Extension to help with creating chrome/firefox browser extensions.",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"publisher": "VaibhavVishal",
 	"repository": "https://github.com/vaibhavhrt/web-extension",
 	"engines": {

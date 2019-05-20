@@ -4,6 +4,11 @@ All notable changes to the "web-extension" extension will be documented in this 
 
 ## [Unreleased]
 
+- Nothing planned yet.
+
+## [0.1.0] - 2019-05-20
+### Added
+
 - Provide autocomplete for all chrome API
 
 ## [0.0.1] - 2019-3-5
