@@ -1,0 +1,6 @@
+[
+    { "name": "capture", "description": "`chrome.tabCapture.capture( CaptureOptions options, function callback)`" },
+    { "name": "getCapturedTabs", "description": "`chrome.tabCapture.getCapturedTabs(function callback)`" },
+    { "name": "captureOffscreenTab", "description": "`chrome.tabCapture.captureOffscreenTab(string startUrl, CaptureOptions options, function callback)`" },
+    { "name": "getMediaStreamId", "description": "`chrome.tabCapture.getMediaStreamId(object options, function callback)`" }
+]
