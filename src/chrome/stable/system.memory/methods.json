@@ -1,0 +1,3 @@
+[
+    { "name": "getInfo", "description": "`chrome.system.memory.getInfo(function callback)`" }
+]
