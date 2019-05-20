@@ -1,0 +1,7 @@
+[
+    { "name": "createConfig", "description": "`chrome.vpnProvider.createConfig(string name, function callback)`" },
+    { "name": "destroyConfig", "description": "`chrome.vpnProvider.destroyConfig(string id, function callback)`" },
+    { "name": "setParameters", "description": "`chrome.vpnProvider.setParameters(object parameters, function callback)`" },
+    { "name": "sendPacket", "description": "`chrome.vpnProvider.sendPacket(ArrayBuffer data, function callback)`" },
+    { "name": "notifyConnectionStateChanged", "description": "`chrome.vpnProvider.notifyConnectionStateChanged(enum of \"connected\", or \"failure\" state, function callback)`" }
+]

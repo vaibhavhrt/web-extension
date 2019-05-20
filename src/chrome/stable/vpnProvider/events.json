@@ -1,0 +1,7 @@
+[
+    { "name": "onPlatformMessage" },
+    { "name": "onPacketReceived" },
+    { "name": "onConfigRemoved" },
+    { "name": "onConfigCreated" },
+    { "name": "onUIEvent" }
+]

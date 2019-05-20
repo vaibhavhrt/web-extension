@@ -54,6 +54,7 @@ import tabsCompletionItemProvider from './chrome/stable/tabs';
 import topSitesCompletionItemProvider from './chrome/stable/topSites';
 import ttsCompletionItemProvider from './chrome/stable/tts';
 import ttsEngineCompletionItemProvider from './chrome/stable/ttsEngine';
+import vpnProviderCompletionItemProvider from './chrome/stable/vpnProvider';
 
 export default [
     // Stable
@@ -112,4 +113,5 @@ export default [
     topSitesCompletionItemProvider,
     ttsCompletionItemProvider,
     ttsEngineCompletionItemProvider,
+    vpnProviderCompletionItemProvider,
 ];
