@@ -62,6 +62,7 @@ import windowsCompletionItemProvider from './chrome/stable/windows';
 
 // Beta APIs
 import declarativeNetRequestCompletionItemProvider from './chrome/beta/declarativeNetRequest';
+import declarativeWebRequestCompletionItemProvider from './chrome/beta/declarativeWebRequest';
 
 export default [
     // Stable
@@ -127,4 +128,5 @@ export default [
     windowsCompletionItemProvider,
     // Beta
     declarativeNetRequestCompletionItemProvider,
+    declarativeWebRequestCompletionItemProvider,
 ];
