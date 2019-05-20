@@ -1,0 +1,3 @@
+[
+    { "name": "setWallpaper", "description": "`chrome.wallpaper.setWallpaper(object details, function callback)`" }
+]
