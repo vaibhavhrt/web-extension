@@ -1,0 +1,9 @@
+[
+    { "name": "get", "description": "`chrome.windows.get(integer windowId, object getInfo, function callback)`" },
+    { "name": "getCurrent", "description": "`chrome.windows.getCurrent(object getInfo, function callback)`" },
+    { "name": "getLastFocused", "description": "`chrome.windows.getLastFocused(object getInfo, function callback)`" },
+    { "name": "getAll", "description": "`chrome.windows.getAll(object getInfo, function callback)`" },
+    { "name": "create", "description": "`chrome.windows.create(object createData, function callback)`" },
+    { "name": "update", "description": "`chrome.windows.update(integer windowId, object updateInfo, function callback)`" },
+    { "name": "remove", "description": "`chrome.windows.remove(integer windowId, function callback)`" }
+]

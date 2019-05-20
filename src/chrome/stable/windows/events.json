@@ -1,0 +1,5 @@
+[
+    { "name": "onCreated" },
+    { "name": "onRemoved" },
+    { "name": "onFocusChanged" }
+]

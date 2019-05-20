@@ -58,6 +58,7 @@ import vpnProviderCompletionItemProvider from './chrome/stable/vpnProvider';
 import wallpaperCompletionItemProvider from './chrome/stable/wallpaper';
 import webNavigationCompletionItemProvider from './chrome/stable/webNavigation';
 import webRequestCompletionItemProvider from './chrome/stable/webRequest';
+import windowsCompletionItemProvider from './chrome/stable/windows';
 
 export default [
     // Stable
@@ -120,4 +121,5 @@ export default [
     wallpaperCompletionItemProvider,
     webNavigationCompletionItemProvider,
     webRequestCompletionItemProvider,
+    windowsCompletionItemProvider,
 ];
