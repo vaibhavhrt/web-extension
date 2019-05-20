@@ -1,0 +1,14 @@
+[
+    { "name": "onStartup" },
+    { "name": "onInstalled" },
+    { "name": "onSuspend" },
+    { "name": "onSuspendCanceled" },
+    { "name": "onUpdateAvailable" },
+    { "name": "onBrowserUpdateAvailable" },
+    { "name": "onConnect" },
+    { "name": "onConnectExternal" },
+    { "name": "onConnectNative" },
+    { "name": "onMessage" },
+    { "name": "onMessageExternal" },
+    { "name": "onRestartRequired" }
+]

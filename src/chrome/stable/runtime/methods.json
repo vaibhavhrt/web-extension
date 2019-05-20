@@ -1,0 +1,17 @@
+[
+    { "name": "getBackgroundPage", "description": "`chrome.runtime.getBackgroundPage(function callback)`" },
+    { "name": "openOptionsPage", "description": "`chrome.runtime.openOptionsPage(function callback)`" },
+    { "name": "getManifest", "description": "object `chrome.runtime.getManifest()`" },
+    { "name": "getURL", "description": "string `chrome.runtime.getURL(string path)`" },
+    { "name": "setUninstallURL", "description": "`chrome.runtime.setUninstallURL(string url, function callback)`" },
+    { "name": "reload", "description": "`chrome.runtime.reload()`" },
+    { "name": "requestUpdateCheck", "description": "`chrome.runtime.requestUpdateCheck(function callback)`" },
+    { "name": "restart", "description": "`chrome.runtime.restart()`" },
+    { "name": "restartAfterDelay", "description": "`chrome.runtime.restartAfterDelay(integer seconds, function callback)`" },
+    { "name": "connect", "description": "Port `chrome.runtime.connect(string extensionId, object connectInfo)`" },
+    { "name": "connectNative", "description": "Port `chrome.runtime.connectNative(string application)`" },
+    { "name": "sendMessage", "description": "`chrome.runtime.sendMessage(string extensionId, any message, object options, function responseCallback)`" },
+    { "name": "sendNativeMessage", "description": "`chrome.runtime.sendNativeMessage(string application, object message, function responseCallback)`" },
+    { "name": "getPlatformInfo", "description": "`chrome.runtime.getPlatformInfo(function callback)`" },
+    { "name": "getPackageDirectoryEntry", "description": "`chrome.runtime.getPackageDirectoryEntry(function callback)`" }
+]

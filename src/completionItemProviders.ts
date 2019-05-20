@@ -43,6 +43,7 @@ import powerCompletionItemProvider from './chrome/stable/power';
 import printerProviderCompletionItemProvider from './chrome/stable/printerProvider';
 import privacyCompletionItemProvider from './chrome/stable/privacy';
 import proxyCompletionItemProvider from './chrome/stable/proxy';
+import runtimeCompletionItemProvider from './chrome/stable/runtime';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -92,6 +93,7 @@ export default [
     printerProviderCompletionItemProvider,
     privacyCompletionItemProvider,
     proxyCompletionItemProvider,
+    runtimeCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
