@@ -1,0 +1,5 @@
+[
+    { "name": "MAX_NUMBER_OF_ALLOWED_PAGES" },
+    { "name": "MAX_NUMBER_OF_RULES" },
+    { "name": "MAX_NUMBER_OF_DYNAMIC_RULES" }
+]

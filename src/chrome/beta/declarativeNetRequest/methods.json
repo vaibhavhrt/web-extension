@@ -1,0 +1,8 @@
+[
+    { "name": "addDynamicRules", "description": "`chrome.declarativeNetRequest.addDynamicRules(array of Rule rules, function callback)`" },
+    { "name": "removeDynamicRules", "description": "`chrome.declarativeNetRequest.removeDynamicRules(array of integer rule_ids, function callback)`" },
+    { "name": "getDynamicRules", "description": "`chrome.declarativeNetRequest.getDynamicRules(function callback)`" },
+    { "name": "addAllowedPages", "description": "`chrome.declarativeNetRequest.addAllowedPages(array of string page_patterns, function callback)`" },
+    { "name": "removeAllowedPages", "description": "`chrome.declarativeNetRequest.removeAllowedPages(array of string page_patterns, function callback)`" },
+    { "name": "getAllowedPages", "description": "`chrome.declarativeNetRequest.getAllowedPages(function callback)`" }
+]
