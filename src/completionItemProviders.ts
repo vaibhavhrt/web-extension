@@ -41,6 +41,7 @@ import permissionsCompletionItemProvider from './chrome/stable/permissions';
 import platformKeysCompletionItemProvider from './chrome/stable/platformKeys';
 import powerCompletionItemProvider from './chrome/stable/power';
 import printerProviderCompletionItemProvider from './chrome/stable/printerProvider';
+import privacyCompletionItemProvider from './chrome/stable/privacy';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -88,6 +89,7 @@ export default [
     platformKeysCompletionItemProvider,
     powerCompletionItemProvider,
     printerProviderCompletionItemProvider,
+    privacyCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
