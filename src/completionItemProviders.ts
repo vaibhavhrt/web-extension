@@ -45,6 +45,7 @@ import privacyCompletionItemProvider from './chrome/stable/privacy';
 import proxyCompletionItemProvider from './chrome/stable/proxy';
 import runtimeCompletionItemProvider from './chrome/stable/runtime';
 import sessionsCompletionItemProvider from './chrome/stable/sessions';
+import storageCompletionItemProvider from './chrome/stable/storage';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -96,6 +97,7 @@ export default [
     proxyCompletionItemProvider,
     runtimeCompletionItemProvider,
     sessionsCompletionItemProvider,
+    storageCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
