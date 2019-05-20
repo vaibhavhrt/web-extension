@@ -1,5 +1,5 @@
 [
-    { "name": "getProcessIdForTab", "decription": "`chrome.processes.getProcessIdForTab(integer tabId, function callback)`" },
-    { "name": "terminate", "decription": "`chrome.processes.terminate(integer processId, function callback)`" },
-    { "name": "getProcessInfo", "decription": "`chrome.processes.getProcessInfo(integer or array of integer processIds, boolean includeMemory, function callback)`" }
+    { "name": "getProcessIdForTab", "description": "`chrome.processes.getProcessIdForTab(integer tabId, function callback)`" },
+    { "name": "terminate", "description": "`chrome.processes.terminate(integer processId, function callback)`" },
+    { "name": "getProcessInfo", "description": "`chrome.processes.getProcessInfo(integer or array of integer processIds, boolean includeMemory, function callback)`" }
 ]
