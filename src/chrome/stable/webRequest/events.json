@@ -1,0 +1,12 @@
+[
+    { "name": "onBeforeRequest" },
+    { "name": "onBeforeSendHeaders" },
+    { "name": "onSendHeaders" },
+    { "name": "onHeadersReceived" },
+    { "name": "onAuthRequired" },
+    { "name": "onResponseStarted" },
+    { "name": "onBeforeRedirect" },
+    { "name": "onCompleted" },
+    { "name": "onErrorOccurred" },
+    { "name": "onActionIgnored" }
+]

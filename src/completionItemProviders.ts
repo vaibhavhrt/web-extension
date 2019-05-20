@@ -57,6 +57,7 @@ import ttsEngineCompletionItemProvider from './chrome/stable/ttsEngine';
 import vpnProviderCompletionItemProvider from './chrome/stable/vpnProvider';
 import wallpaperCompletionItemProvider from './chrome/stable/wallpaper';
 import webNavigationCompletionItemProvider from './chrome/stable/webNavigation';
+import webRequestCompletionItemProvider from './chrome/stable/webRequest';
 
 export default [
     // Stable
@@ -118,4 +119,5 @@ export default [
     vpnProviderCompletionItemProvider,
     wallpaperCompletionItemProvider,
     webNavigationCompletionItemProvider,
+    webRequestCompletionItemProvider,
 ];

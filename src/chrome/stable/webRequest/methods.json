@@ -1,0 +1,3 @@
+[
+    { "name": "handlerBehaviorChanged", "description": "`chrome.webRequest.handlerBehaviorChanged(function callback)`" }
+]
