@@ -1,0 +1,6 @@
+[
+    { "name": "onGetPrintersRequested" },
+    { "name": "onGetUsbPrinterInfoRequested" },
+    { "name": "onGetCapabilityRequested" },
+    { "name": "onPrintRequested" }
+]

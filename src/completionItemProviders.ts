@@ -40,6 +40,7 @@ import pageCaptureCompletionItemProvider from './chrome/stable/pageCapture';
 import permissionsCompletionItemProvider from './chrome/stable/permissions';
 import platformKeysCompletionItemProvider from './chrome/stable/platformKeys';
 import powerCompletionItemProvider from './chrome/stable/power';
+import printerProviderCompletionItemProvider from './chrome/stable/printerProvider';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -86,6 +87,7 @@ export default [
     permissionsCompletionItemProvider,
     platformKeysCompletionItemProvider,
     powerCompletionItemProvider,
+    printerProviderCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
