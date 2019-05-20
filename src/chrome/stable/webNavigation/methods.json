@@ -1,0 +1,4 @@
+[
+    { "name": "getFrame", "description": "`chrome.webNavigation.getFrame(object details, function callback)`" },
+    { "name": "getAllFrames", "description": "`chrome.webNavigation.getAllFrames(object details, function callback)`" }
+]

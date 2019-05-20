@@ -1,0 +1,11 @@
+[
+    { "name": "onBeforeNavigate" },
+    { "name": "onCommitted" },
+    { "name": "onDOMContentLoaded" },
+    { "name": "onCompleted" },
+    { "name": "onErrorOccurred" },
+    { "name": "onCreatedNavigationTarget" },
+    { "name": "onReferenceFragmentUpdated" },
+    { "name": "onTabReplaced" },
+    { "name": "onHistoryStateUpdated" }
+]
