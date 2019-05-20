@@ -1,0 +1,5 @@
+[
+    { "name": "getInfo", "description": "`chrome.system.storage.getInfo(function callback)`" },
+    { "name": "ejectDevice", "description": "`chrome.system.storage.ejectDevice(string id, function callback)`" },
+    { "name": "getAvailableCapacity", "description": "`chrome.system.storage.getAvailableCapacity(string id, function callback)`" }
+]

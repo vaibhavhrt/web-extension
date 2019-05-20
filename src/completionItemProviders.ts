@@ -48,6 +48,7 @@ import sessionsCompletionItemProvider from './chrome/stable/sessions';
 import storageCompletionItemProvider from './chrome/stable/storage';
 import system_cpuCompletionItemProvider from './chrome/stable/system.cpu';
 import system_memoryCompletionItemProvider from './chrome/stable/system.memory';
+import system_storageCompletionItemProvider from './chrome/stable/system.storage';
 
 import tabsCompletionItemProvider from './chrome/stable/tabs';
 
@@ -102,6 +103,7 @@ export default [
     storageCompletionItemProvider,
     system_cpuCompletionItemProvider,
     system_memoryCompletionItemProvider,
+    system_storageCompletionItemProvider,
 
     tabsCompletionItemProvider,
 ];
