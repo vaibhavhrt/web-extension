@@ -64,6 +64,9 @@ import windowsCompletionItemProvider from './chrome/stable/windows';
 import declarativeNetRequestCompletionItemProvider from './chrome/beta/declarativeNetRequest';
 import declarativeWebRequestCompletionItemProvider from './chrome/beta/declarativeWebRequest';
 
+// Dev APIs
+import automationCompletionItemProvider from './chrome/dev/automation';
+
 export default [
     // Stable
     chromeCompletionItemProvider,
@@ -129,4 +132,6 @@ export default [
     // Beta
     declarativeNetRequestCompletionItemProvider,
     declarativeWebRequestCompletionItemProvider,
+    // Dev
+    automationCompletionItemProvider,
 ];

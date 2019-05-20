@@ -1,0 +1,8 @@
+[
+    { "name": "getTree", "description": "`chrome.automation.getTree(integer tabId, function callback)`" },
+    { "name": "getDesktop", "description": "`chrome.automation.getDesktop(function callback)`" },
+    { "name": "getFocus", "description": "`chrome.automation.getFocus(function callback)`" },
+    { "name": "addTreeChangeObserver", "description": "`chrome.automation.addTreeChangeObserver(enum of \"noTreeChanges\", \"liveRegionTreeChanges\", \"textMarkerChanges\", or \"allTreeChanges\" filter, function observer)`" },
+    { "name": "removeTreeChangeObserver", "description": "`chrome.automation.removeTreeChangeObserver(function observer)`" },
+    { "name": "setDocumentSelection", "description": "`chrome.automation.setDocumentSelection( SetDocumentSelectionParams params)`" }
+]
