@@ -1,0 +1,3 @@
+[
+    { "name": "get", "description": "`chrome.signedInDevices.get(boolean isLocal, function callback)`" }
+]
