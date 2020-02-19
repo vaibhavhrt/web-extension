@@ -29,7 +29,7 @@
 		"typescript": "^3.7.5",
 		"vscode": "^1.1.36",
 		"tslint": "^6.0.0",
-		"@types/node": "^13.7.1",
+		"@types/node": "^13.7.3",
 		"@types/mocha": "^7.0.1"
 	}
 }
