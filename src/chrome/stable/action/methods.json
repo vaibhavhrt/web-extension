@@ -1,0 +1,54 @@
+[
+  {
+    "name": "disable",
+    "description": "`chrome.action.disable(number tabId, function callback)`"
+  },
+  {
+    "name": "enable",
+    "description": "`chrome.action.enable(number tabId, function callback)`"
+  },
+  {
+    "name": "getBadgeBackgroundColor",
+    "description": "`chrome.action.getBadgeBackgroundColor(TabDetails details, function callback)`"
+  },
+  {
+    "name": "getBadgeText",
+    "description": "`chrome.action.getBadgeText(TabDetails details, function callback)`"
+  },
+  {
+    "name": "getPopup",
+    "description": "`chrome.action.getPopup(TabDetails details, function callback)`"
+  },
+  {
+    "name": "getTitle",
+    "description": "`chrome.action.getTitle(TabDetails details, function callback)`"
+  },
+  {
+    "name": "getUserSettings",
+    "description": "`chrome.action.getUserSettings(function callback)`"
+  },
+  {
+    "name": "openPopup",
+    "description": "`chrome.action.openPopup(OpenPopupOptions options, function callback)`"
+  },
+  {
+    "name": "setBadgeBackgroundColor",
+    "description": "`chrome.action.setBadgeBackgroundColor(object details, function callback)`"
+  },
+  {
+    "name": "setBadgeText",
+    "description": "`chrome.action.setBadgeText(object details, function callback)`"
+  },
+  {
+    "name": "setIcon",
+    "description": "`chrome.action.setIcon(object details, function callback)`"
+  },
+  {
+    "name": "setPopup",
+    "description": "`chrome.action.setPopup(object details, function callback)`"
+  },
+  {
+    "name": "setTitle",
+    "description": "`chrome.action.setTitle(object details, function callback)`"
+  }
+]
