@@ -24,5 +24,7 @@
     { "name": "getZoomSettings", "description": "`chrome.tabs.getZoomSettings(integer tabId, function callback)`"},
     { "name": "discard", "description": "`chrome.tabs.discard(integer tabId, function callback)`"},
     { "name": "goForward", "description": "`chrome.tabs.goForward(integer tabId, function callback)`"},
-    { "name": "goBack", "description": "`chrome.tabs.goBack(integer tabId, function callback)`"}
+    { "name": "goBack", "description": "`chrome.tabs.goBack(integer tabId, function callback)`"},
+    { "name": "group", "description": "`chrome.tabs.group(object options, function callback)`" },
+    { "name": "ungroup", "description": "`chrome.tabs.ungroup(number | [number, ...number[]] tabIds, function callback)`" }
 ]

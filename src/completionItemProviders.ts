@@ -1,6 +1,7 @@
 // Stable APIs
 import chromeCompletionItemProvider from './chrome/chromeCompletionItemProvider';
 import accessibilityFeaturesCompletionItemProvider from './chrome/stable/accessibilityFeatures';
+import actionCompletionItemProvider from './chrome/stable/action';
 import alarmsCompletionItemProvider from './chrome/stable/alarms';
 import bookmarksCompletionItemProvider from './chrome/stable/bookmarks';
 import browserActionCompletionItemProvider from './chrome/stable/browserAction';
@@ -73,6 +74,7 @@ export default [
     // Stable
     chromeCompletionItemProvider,
     accessibilityFeaturesCompletionItemProvider,
+    actionCompletionItemProvider,
     alarmsCompletionItemProvider,
     bookmarksCompletionItemProvider,
     browserActionCompletionItemProvider,
