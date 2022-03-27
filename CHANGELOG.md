@@ -3,8 +3,9 @@
 All notable changes to the "web-extension" extension will be documented in this file.
 
 ## [Unreleased]
-
-- Nothing planned yet.
+### Added
+- The MV3 `chrome.action` chrome extension API
+- Group and ungroup methods to `chrome.tabs`
 
 ## [0.1.0] - 2019-05-20
 ### Added

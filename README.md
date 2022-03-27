@@ -17,3 +17,9 @@ Provides Autocompletion for chrome extension API. Work in progress.
 Issues, bugs and feature request at https://github.com/vaibhavhrt/web-extension/issues
 
 -----------------------------------------------------------------------------------------------------------
+
+## Contributors
+
+Made possible with the help of community
+
+[Yash-Singh1](https://github.com/Yash-Singh1)
