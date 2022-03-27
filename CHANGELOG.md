@@ -4,8 +4,13 @@ All notable changes to the "web-extension" extension will be documented in this 
 
 ## [Unreleased]
 ### Added
+
 - The MV3 `chrome.action` chrome extension API
 - Group and ungroup methods to `chrome.tabs`
+
+## Security
+
+- Update all dependencies & switch to yarn
 
 ## [0.1.0] - 2019-05-20
 ### Added
